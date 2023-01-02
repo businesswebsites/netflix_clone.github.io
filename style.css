@@ -66,3 +66,21 @@ h2{
 #category{
     display:flex;
 }
+
+#video3, #video2, #video, #video4, #video5, #video6, #video7, #video8{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(1, 1, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+#video3:hover, #video2:hover, #video:hover, #video4:hover, #video5:hover, #video6:hover, #video7:hover, #video8:hover{
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+}
+
+video{
+    object-fit: inherit;
+}
