@@ -1,0 +1,68 @@
+#netflix_symbol{
+    color: red; 
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-color: rgb(32, 29, 29);
+    overflow-x: hidden;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
+
+.slider-container{
+    display: flex;
+}
+.slide{
+    margin:3px;
+}
+.container{
+    margin-left:20px;
+}
+
+img:hover{
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+}
+img{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(1, 1, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+h2{
+    margin: 30px;
+    color:white;
+}
+
+.slide:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#overlay{
+    visibility: hidden;
+}
+
+.text{
+    margin: 35px;
+    color: white;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.text:hover{
+    cursor:pointer;
+}
+#category{
+    display:flex;
+}
